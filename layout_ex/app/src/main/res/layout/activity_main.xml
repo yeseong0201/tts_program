@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_all">
+
+    <LinearLayout
+        android:id="@+id/llMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_all"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        >
+
+        <Button
+            android:background="@drawable/bg_red"
+            android:id="@+id/btnRED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="red" />
+
+        <Button
+
+            android:background="@drawable/bg_blue"
+            android:id="@+id/btnBLUE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="blue" />
+
+        <Button
+            android:background="@drawable/bg_green"
+            android:id="@+id/btnGREEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="green" />
+
+        <Button
+            android:background="@drawable/bg_white"
+            android:id="@+id/btnWHITE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:text="white" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/temp_view"
+        android:background="@drawable/bg_drawing_border"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="360dp"
+        android:layout_height="450dp">
+
+    </View>
+</LinearLayout>
