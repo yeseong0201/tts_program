@@ -1,56 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/dg_background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <EditText
-       android:id="@+id/editText"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="텍스트를 입력하세요."/>
-    <Button
-        android:id="@+id/button01"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="tts실행"
-        android:textColor="#000"
-        android:textSize="18dp"/>
-    <Button
-        android:id="@+id/button02"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="tts목소리 톤 설정 높게"
-        android:textColor="#000"
-        android:textSize="18dp"/>
-    <Button
-        android:id="@+id/button03"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="tts목소리 속도 설정 낮게"
-        android:textColor="#000"
-        android:textSize="18dp"/>
-    <Button
-        android:id="@+id/button04"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="tts 목소리 설정 빠르게"
-        android:textColor="#000"
-        android:textSize="18dp"/>
-    <Button
-        android:id="@+id/button05"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="20dp"
-        android:text="tts목소리 설정 느리게"
-        android:textColor="#000"
-        android:textSize="18dp"/>
+        android:layout_height="60dp"
+        android:fontFamily="sans-serif"
+        android:hint="텍스트를 입력하세요." />
 
-</LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:text="말하기"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/button01"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="125dp"
+            android:src="@drawable/ic_speak_button" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="느리게 ㅡㅡㅡㅡㅡ 빠르게"
+        android:textSize="30sp" />
+
+
+    <ImageButton
+        android:id="@+id/button04"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/ic_text_fast" />
+
+    <ImageButton
+        android:id="@+id/button05"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/ic__text_slowly" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="LowTon -------- HighTon"
+            android:textSize="30sp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/button06"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/ic_plus_2" />
+
+        <ImageButton
+            android:id="@+id/button07"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/ic_minus_1" />
+
+        <ImageButton
+            android:id="@+id/button08"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/ic_text_avg" />
+
+        <ImageButton
+            android:id="@+id/button09"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/ic_plus_1" />
+
+        <ImageButton
+            android:id="@+id/button10"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="370dp"
+            android:src="@drawable/ic_minus_2" />
+
+
+</RelativeLayout>

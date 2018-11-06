@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="신고각"
+            android:textSize="30sp""/>
+
+</RelativeLayout>
+
+        <!--<Button-->
+            <!--android:id="@+id/type1"-->
+            <!--android:text="유형별 신고처"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="100dp"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/all2"-->
+            <!--android:text="종합 상황실"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="200dp"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/quiz3"-->
+            <!--android:text="퀴즈! 학생인권"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:layout_marginTop="100dp"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/community4"-->
+            <!--android:text="익명 커뮤니티"-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginTop="100dp"-->
+            <!--android:layout_marginLeft="200dp"/>-->
+
+</android.support.constraint.ConstraintLayout>
